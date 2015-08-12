@@ -2,7 +2,7 @@
 
 # This set of scripts is for setting up my development environment on Ubuntu from a fresh install
 
-START_DIR=pwd
+START_DIR=${pwd}
 INSTALL_DIR=~/devenv_scripts/
 
 sudo apt-get install git
