@@ -9,4 +9,5 @@ sudo dpkg -i /tmp/atom.deb
 # install all packages listed in atompackages.txt
 apm install --packages-file atompackages.txt
 
-
+# set atom as default git commit editor
+git config --global core.editor "atom --wait"
