@@ -10,3 +10,6 @@ source install_postgres.sh
 
 source setup_nautilus.sh
 source setup_unity.sh
+
+sudo apt-get install -y shutter guake
+sudo apt-get install -y ttf-mscorefonts-installer
